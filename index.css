@@ -1,10 +1,10 @@
 body {
   background-color: black;
-  background-image: url(./space.jpeg);
+  background-image: url(./dark-space-wallpaper-cqd1bva2103h6wri.jpg);
   background-size: cover;
 }
 .space {
-  background-image: url(./space.jpeg);
+  background-image: url(./dark-space-wallpaper-cqd1bva2103h6wri.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -33,10 +33,10 @@ body {
   width: 60px;
   margin: 200px;
   box-shadow: 0 0 5px aqua, 0 0 25px aqua, 0 0 50px aqua, 0 0 100px aqua;
-  background-image: url(./earth\ 1.jpg);
+  background-image: url();
   background-size: cover;
 
-  animation: earth 6s 1s infinite linear none;
+  animation: earth 2s 1s infinite linear none;
 }
 .moon {
   height: 15px;
