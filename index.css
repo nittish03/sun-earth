@@ -23,7 +23,7 @@ body {
     0 0 100px #e45001;
   background-color: #e45001;
   animation: earth 20s 1s infinite linear none;
-  background-image: url(sun.jpeg);
+  background-image: url(https://img.icons8.com/?size=100&id=8LM7-CYX4BPD&format=png&color=000000);
   background-size: cover;
 }
 .earth {
@@ -33,7 +33,7 @@ body {
   width: 60px;
   margin: 200px;
   box-shadow: 0 0 5px aqua, 0 0 25px aqua, 0 0 50px aqua, 0 0 100px aqua;
-  background-image: url();
+  background-image: url(https://img.icons8.com/?size=100&id=w_qRMJOKoZGs&format=png&color=000000);
   background-size: cover;
 
   animation: earth 2s 1s infinite linear none;
@@ -45,12 +45,17 @@ body {
   background-color: white;
   box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white;
   margin: 75px;
-  background-image: url(./moon1.jpg);
+  background-image: url(https://img.icons8.com/?size=100&id=fxdxLCkl9ka7&format=png&color=000000);
   background-size: cover;
 }
 
 @keyframes earth {
   to {
     transform: rotate(360deg);
+  }
+}
+@media (max-width: 768px) {
+  .space {
+    flex-direction: column;
   }
 }
