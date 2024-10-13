@@ -1,7 +1,8 @@
 body {
   background-color: black;
   background-image: url(./dark-space-wallpaper-cqd1bva2103h6wri.jpg);
-  background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 .space {
   background-image: url(./dark-space-wallpaper-cqd1bva2103h6wri.jpg);
@@ -9,14 +10,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
+  height: 100%
+
 }
 .sun {
-  margin: 160px;
-  height: 160px;
-  width: 160px;
+  height: 20vh;
+  width:  20vh;
   border-radius: 50%;
   color: #e45001;
   box-shadow: 0 0 5px #e45001, 0 0 25px #e45001, 0 0 50px #e45001,
@@ -29,9 +28,9 @@ body {
 .earth {
   border-radius: 50%;
   background-color: aqua;
-  height: 60px;
-  width: 60px;
-  margin: 200px;
+  height: 9vh;
+  width:  9vh;
+  margin: 110%;
   box-shadow: 0 0 5px aqua, 0 0 25px aqua, 0 0 50px aqua, 0 0 100px aqua;
   background-image: url(https://img.icons8.com/?size=100&id=w_qRMJOKoZGs&format=png&color=000000);
   background-size: cover;
@@ -39,12 +38,12 @@ body {
   animation: earth 2s 1s infinite linear none;
 }
 .moon {
-  height: 15px;
-  width: 15px;
+  height: 3vh;
+  width:  3vh;
   border-radius: 50%;
   background-color: white;
   box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white;
-  margin: 75px;
+  margin: 120%;
   background-image: url(https://img.icons8.com/?size=100&id=fxdxLCkl9ka7&format=png&color=000000);
   background-size: cover;
 }
@@ -52,10 +51,5 @@ body {
 @keyframes earth {
   to {
     transform: rotate(360deg);
-  }
-}
-@media (max-width: 768px) {
-  .space {
-    flex-direction: column;
   }
 }
